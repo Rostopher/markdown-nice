@@ -66,6 +66,7 @@ class Theme extends React.Component {
 
       themeList = [
         {themeId: "normal", name: "默认主题", css: TEMPLATE.normal},
+        {themeId: "frowang", name: "frowang·水墨金", css: TEMPLATE.frowang},
         ...remoteThemelist,
         {themeId: "custom", name: "自定义", css: TEMPLATE.custom},
       ];

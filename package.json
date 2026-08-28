@@ -14,10 +14,12 @@
     "url": "https://github.com/mdnice/markdown-nice"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider BROWSER=none node scripts/start.js",
     "watch": "node ./watch.js",
-    "build": "node --max_old_space_size=4096 scripts/build.js",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider node --max_old_space_size=4096 scripts/build.js",
     "test": "node scripts/test.js",
+    "test:wechat-render": "node scripts/_test_render_wechat.js",
+    "render:wechat": "node scripts/render-wechat.js",
     "analyze": "source-map-explorer build/static/js/*.js",
     "lint": "eslint src --ext ts,tsx,js --fix",
     "publish:npm": "cross-env NODE_ENV=production && rm -rf lib && mkdir lib && cross-env BABEL_ENV=production npx babel src --out-dir lib --copy-files",
