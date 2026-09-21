@@ -35,8 +35,9 @@ function getMathJax() {
     mathJaxPromise = require("mathjax").init({
       loader: {
         paths: {mathjax: mathJaxRoot},
-        load: ["input/tex", "output/svg"],
+        load: ["input/tex", "output/svg", "[tex]/boldsymbol"],
       },
+      tex: {packages: {"[+]": ["boldsymbol"]}},
       svg: {fontCache: "none"},
     });
   }
