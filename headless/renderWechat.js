@@ -15,6 +15,7 @@ const PROJECT_ROOT = path.resolve(__dirname, "..");
 const THEME_PATHS = {
   frowang: path.join(PROJECT_ROOT, "src", "template", "markdown", "frowang.js"),
   normal: path.join(PROJECT_ROOT, "src", "template", "markdown", "normal.js"),
+  blog: path.join(PROJECT_ROOT, "src", "template", "markdown", "blog.js"),
 };
 
 let mathJaxPromise;
