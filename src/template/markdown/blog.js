@@ -7,24 +7,24 @@ export default `/* frowang·博客版 主题
 
 /* 全局属性 */
 #nice {
-  font-size: 15px;
+  font-size: 16px;
   color: #34313B;
   line-height: 1.7;
   letter-spacing: 0.01em;
   padding: 0;
-  font-family: Georgia, 'Times New Roman', 'Songti SC', 'SimSun', 'PingFang SC', serif;
+  font-family: Georgia, 'Times New Roman', 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'SimSun', 'PingFang SC', serif;
 }
 
 /* 段落 */
 #nice p {
-  font-size: 15px;
+  font-size: 16px;
   color: #34313B;
   line-height: 1.7;
   letter-spacing: 0.01em;
   padding-top: 4px;
   padding-bottom: 4px;
   margin: 0;
-  font-family: Georgia, 'Times New Roman', 'Songti SC', 'SimSun', 'PingFang SC', serif;
+  font-family: Georgia, 'Times New Roman', 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'SimSun', 'PingFang SC', serif;
 }
 
 /* 一级标题（页内一般不用 h1，保留作兜底） */
@@ -37,12 +37,12 @@ export default `/* frowang·博客版 主题
   letter-spacing: 0.5px;
   margin-top: 24px;
   margin-bottom: 14px;
-  font-family: 'Songti SC', 'STSong', 'Noto Serif SC', Georgia, serif;
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', Georgia, serif;
 }
 
 /* 二级标题：文章三个"部分"的分节 */
 #nice h2 {
-  font-size: 19px;
+  font-size: 20px;
   color: #17151F;
   font-weight: bold;
   line-height: 1.4;
@@ -51,12 +51,12 @@ export default `/* frowang·博客版 主题
   margin-bottom: 14px;
   padding-top: 20px;
   border-top: 1px solid #E8E4DA;
-  font-family: 'Songti SC', 'STSong', 'Noto Serif SC', Georgia, serif;
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', Georgia, serif;
 }
 
 /* 三级标题 */
 #nice h3 {
-  font-size: 16px;
+  font-size: 17px;
   color: #17151F;
   font-weight: bold;
   line-height: 1.5;
@@ -64,20 +64,22 @@ export default `/* frowang·博客版 主题
   margin-bottom: 8px;
 }
 
-/* 四级标题：小节/眉题 */
+/* 四级标题：blog 网页版正文里有大量 h4 小节，按正常标题渲染；
+   眉题式的小号金字样式只保留在 frowang 公众号主题里，两边互不影响 */
 #nice h4 {
-  font-size: 13px;
-  color: #b8903f;
+  font-size: 16px;
+  color: #17151F;
   font-weight: bold;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.3px;
   line-height: 1.5;
-  margin-top: 32px;
-  margin-bottom: 4px;
+  margin-top: 26px;
+  margin-bottom: 6px;
+  font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', Georgia, serif;
 }
 
 #nice h5,
 #nice h6 {
-  font-size: 15px;
+  font-size: 16px;
   color: #17151F;
   font-weight: bold;
   margin-top: 20px;
@@ -100,7 +102,7 @@ export default `/* frowang·博客版 主题
 
 /* 列表内容——关键差异：不再继承 #nice p 的 padding，行距收紧 */
 #nice li section {
-  font-size: 15px;
+  font-size: 16px;
   color: #34313B;
   line-height: 1.65;
   letter-spacing: 0.01em;
@@ -108,7 +110,7 @@ export default `/* frowang·博客版 主题
   margin-bottom: 2px;
   padding-top: 0;
   padding-bottom: 0;
-  font-family: Georgia, 'Times New Roman', 'Songti SC', 'SimSun', 'PingFang SC', serif;
+  font-family: Georgia, 'Times New Roman', 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'SimSun', 'PingFang SC', serif;
 }
 
 /* 一级引用：纸色底 + 金色左竖条（frowang 签名） */
@@ -122,7 +124,7 @@ export default `/* frowang·博客版 主题
 }
 
 #nice .multiquote-1 p {
-  font-size: 14px;
+  font-size: 15px;
   color: #5F5B66;
   line-height: 1.7;
   padding: 0;
@@ -169,10 +171,10 @@ export default `/* frowang·博客版 主题
   font-weight: normal;
 }
 
-/* 加粗：金色强调 */
+/* 加粗：墨色强调——金色留给链接、引用竖线、脚注等结构性元素，避免高密度加粗稀释强调力 */
 #nice strong {
   font-weight: bold;
-  color: #b8903f;
+  color: #17151F;
 }
 
 /* 斜体：中文伪斜显乱，转墨灰辅助色 */
@@ -183,7 +185,7 @@ export default `/* frowang·博客版 主题
 
 #nice em strong {
   font-weight: bold;
-  color: #b8903f;
+  color: #17151F;
 }
 
 #nice del {
@@ -219,7 +221,7 @@ export default `/* frowang·博客版 主题
 /* 行内代码：纸色底 + 深金字 */
 #nice p code,
 #nice li code {
-  font-size: 14px;
+  font-size: 15px;
   color: #b8903f;
   background-color: #F6F4EF;
   padding: 2px 5px;
@@ -235,7 +237,7 @@ export default `/* frowang·博客版 主题
   background: #FAF9F6;
   border: 1px solid #E8E4DA;
   border-radius: 6px;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.65;
   color: #34313B;
   font-family: 'JetBrains Mono', Consolas, Monaco, Menlo, monospace;
@@ -244,7 +246,7 @@ export default `/* frowang·博客版 主题
 /* 表格单元格 */
 #nice table tr th,
 #nice table tr td {
-  font-size: 14px;
+  font-size: 15px;
   border: 1px solid #E8E4DA;
   padding: 6px 12px;
   text-align: left;
