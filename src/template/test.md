@@ -4,7 +4,7 @@
 
 > Ivanov, I. T., Pettit, L., & Whited, T. M. (2025). Taxes Depress Corporate Borrowing: Evidence from Private Firms. Review of Economic Studies, 93(4), 2715–2749. https://doi.org/10.1093/restud/rdaf094
 
->> 本解读由 frowang.com 的AI系统生成，仅供辅助参考，请以原文为准。frowang.com 提供超越Zotero的论文阅读体验，通过API key与本地agent结合，frowang.com 还可以想助您自动化管理文献，进行文献综述，详情请参考：https://tcntq9hul3ff.feishu.cn/wiki/I0A8w7uNvi2LyFkKoOycVe1Gn7b?from=from_copylink。目前内测阶段使用免费，需要邀请码请在公众号后台私信。
+>> 本解读由 frowang.com 的AI系统生成，仅供辅助参考，请以原文为准。frowang.com 提供超越Zotero的论文阅读体验，通过API key与本地agent结合，frowang.com 还可以想助您自动化管理文献，进行文献综述，详情请参考：https://tcntq9hul3ff.feishu.cn/wiki/I0A8w7uNvi2LyFkKoOycVe1Gn7b?from=from_copylink。目前内测阶段使用免费，访问 frowang.com 即可领取邀请码并注册。
 
 #### 第一章
 
